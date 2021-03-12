@@ -8354,7 +8354,7 @@ input[type=range]::-ms-thumb {
   background-color: #4CAF50;
 }
 
-.carousel {
+.carrousel {
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -8367,12 +8367,12 @@ input[type=range]::-ms-thumb {
           transform-origin: 0% 50%;
 }
 
-.carousel.carousel-slider {
+.carrousel.carrousel-slider {
   top: 0;
   left: 0;
 }
 
-.carousel.carousel-slider .carousel-fixed-item {
+.carrousel.carrousel-slider .carrousel-fixed-item {
   position: absolute;
   left: 0;
   right: 0;
@@ -8380,11 +8380,11 @@ input[type=range]::-ms-thumb {
   z-index: 1;
 }
 
-.carousel.carousel-slider .carousel-fixed-item.with-indicators {
+.carrousel.carrousel-slider .carrousel-fixed-item.with-indicators {
   bottom: 68px;
 }
 
-.carousel.carousel-slider .carousel-item {
+.carrousel.carrousel-slider .carrousel-item {
   width: 100%;
   height: 100%;
   min-height: 400px;
@@ -8393,17 +8393,17 @@ input[type=range]::-ms-thumb {
   left: 0;
 }
 
-.carousel.carousel-slider .carousel-item h2 {
+.carrousel.carrousel-slider .carrousel-item h2 {
   font-size: 24px;
   font-weight: 500;
   line-height: 32px;
 }
 
-.carousel.carousel-slider .carousel-item p {
+.carrousel.carrousel-slider .carrousel-item p {
   font-size: 15px;
 }
 
-.carousel .carousel-item {
+.carrousel .carrousel-item {
   visibility: hidden;
   width: 200px;
   height: 200px;
@@ -8412,11 +8412,11 @@ input[type=range]::-ms-thumb {
   left: 0;
 }
 
-.carousel .carousel-item > img {
+.carrousel .carrousel-item > img {
   width: 100%;
 }
 
-.carousel .indicators {
+.carrousel .indicators {
   position: absolute;
   text-align: center;
   left: 0;
@@ -8425,7 +8425,7 @@ input[type=range]::-ms-thumb {
   margin: 0;
 }
 
-.carousel .indicators .indicator-item {
+.carrousel .indicators .indicator-item {
   display: inline-block;
   position: relative;
   cursor: pointer;
@@ -8438,12 +8438,12 @@ input[type=range]::-ms-thumb {
   border-radius: 50%;
 }
 
-.carousel .indicators .indicator-item.active {
+.carrousel .indicators .indicator-item.active {
   background-color: #fff;
 }
 
-.carousel.scrolling .carousel-item .materialboxed,
-.carousel .carousel-item:not(.active) .materialboxed {
+.carrousel.scrolling .carrousel-item .materialboxed,
+.carrousel .carrousel-item:not(.active) .materialboxed {
   pointer-events: none;
 }
 

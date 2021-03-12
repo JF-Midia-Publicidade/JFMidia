@@ -140,6 +140,8 @@
     <br /><br />
 
 
+    
+<br><br><br>
 
     
     <footer class="page-footer blue">
@@ -190,5 +192,18 @@
       src="https://kit.fontawesome.com/ecd8cb463a.js"
       crossorigin="anonymous"
     ></script>
+    <script>document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.slider');
+      var instances = M.Slider.init(elems, options);
+    });
+  
+    // Or with jQuery
+  
+    $(document).ready(function(){
+      $('.slider').slider({
+        indicators: true,
+        height : 755
+      });
+    });</script>
   </body>
 </html>
