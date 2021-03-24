@@ -2,6 +2,9 @@
 <html lang="pt-br">
 
 <head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
@@ -11,6 +14,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <script src="js/init.js"></script>
 </head>
 
 <body class="grey lighten-5">
@@ -36,6 +40,14 @@
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
     </nav>
+    <div class="parallax-container valign-wrapper">
+        <div class="parallax"><img src="img/telephone-3840285_960_720.jpg"></div>
+        <div class="container">
+            <h3 class=" container header center novoAzul grey lighten-2" style="border-radius: 10cm;">
+                Entre em contato conosco
+            </h3>
+        </div>
+    </div>
 
     <div>
         <div class="row">
@@ -44,11 +56,11 @@
                     <div class="card-panel transparent hoverable center-align">
                         <div class="row">
                             <div class="col s12  l4">
-                                <i class="material-icons large light-green-text text-darken-1">local_phone</i>
+                                <i class="material-icons large novoAzul">local_phone</i>
                             </div>
                             <div class="col s12 l8">
                                 <br>
-                                <h6 class="light-green-text text-darken-1">(32)4002-8922</h6>
+                                <h6 class="novoAzul">(32)4002-8922</h6>
                             </div>
                         </div>
 
@@ -60,11 +72,11 @@
                     <div class="card-panel transparent hoverable center-align">
                         <div class="row">
                             <div class="col s12  l4">
-                                <i class="material-icons large light-green-text text-darken-1">email</i>
+                                <i class="material-icons large novoAzul">email</i>
                             </div>
                             <div class="col s12  l8">
                                 <br>
-                                <h6 class="light-green-text text-darken-1">atendimento@Jfmidia.com</h6>
+                                <h6 class="novoAzul">atendimento@Jfmidia.com</h6>
                             </div>
                         </div>
 
@@ -77,11 +89,11 @@
                     <div class="card-panel transparent hoverable center-align">
                         <div class="row">
                             <div class="col s12 l4">
-                                <i class="material-icons large light-green-text text-darken-1">map</i>
+                                <i class="material-icons large novoAzul">map</i>
                             </div>
                             <div class="col s12 l8">
 
-                                <h6 class="light-green-text text-darken-1">Avenida dos Bandeirantes, Centro 250 - Juiz
+                                <h6 class="novoAzul">Avenida dos Bandeirantes, Centro 250 - Juiz
                                     de Fora</h6>
                             </div>
                         </div>
@@ -89,12 +101,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col s12 m9 l9">
+            <div class="col s12  l9">
 
                 <div class="container">
                     <h3>Contato</h3>
+                    <form class="col s12">
                     <div class="row">
-                        <form class="col s12">
+                        
                             <div class="row">
                                 <div class="input-field col s6">
                                     <input id="nome" type="text" class="validate">
@@ -123,7 +136,7 @@
                         </div>
                     </div>
 
-                    <button class="btn waves-effect waves-light light-green darken-1" type="submit" name="action">Enviar
+                    <button class="btn waves-effect  novoAzul pulse right-align" type="submit" name="action">Enviar
                         <i class="material-icons right">send</i>
                     </button>
                     </form>
@@ -131,17 +144,24 @@
                 </div>
             </div>
         </div>
-        <div class="row container">
-            <iframe
+
+    </div>
+
+    </div>
+
+    </div>
+    <div class="row ">
+        <div class="parallax-container valign-wrapper">
+            <div class="parallax"><img src="img/telephone-3840285_960_720.jpg"></div>
+            <div class="container">
+                <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1852.6927114210791!2d-43.34966474205546!3d-21.76533930540405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x989b609b14cf03%3A0xd3785b306eb72fba!2sAv.%20Bar%C3%A3o%20do%20Rio%20Branco%2C%202721-2617%20-%20Centro%2C%20Juiz%20de%20Fora%20-%20MG%2C%2036016-311!5e0!3m2!1spt-BR!2sbr!4v1615569930253!5m2!1spt-BR!2sbr"
                 width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
-    </div>
+        <div class="container"></div>
 
     </div>
-
-    </div>
-
 
 
     <br><br>
@@ -182,32 +202,32 @@
                 <div class="col s12 l4">
                     <h5 class="white-text">Mapa do site </h5>
                     <div class="col s12">
-                      <a href="index.html " class="white-text">Inicio</a>
+                        <a href="index.html " class="white-text">Inicio</a>
                     </div>
-                    <div class="col s12"> 
-                      <a href="portifolio.html" class="white-text">Nossa Equipe</a>
+                    <div class="col s12">
+                        <a href="portifolio.html" class="white-text">Nossa Equipe</a>
                     </div>
                     <div class="container">
-                      <div class="col s12">
-                        <a href="pagPortifolio/Adailton.html" class="white-text">Adailton</a>
-                      </div>
-                      <div class="col s12">
-                        <a href="pagPortifolio/Mateus.html" class="white-text">Mateus</a>
-                      </div>
-                      <div class="col s12">
-                        <a href="pagPortifolio/Rennan.html" class="white-text">Rennan</a>
-                      </div>
-                      <div class="col s12">
-                        <a href="pagPortifolio/falci.html" class="white-text">Luis Falci</a>
-                      </div>
+                        <div class="col s12">
+                            <a href="pagPortifolio/Adailton.html" class="white-text">Adailton</a>
+                        </div>
+                        <div class="col s12">
+                            <a href="pagPortifolio/Mateus.html" class="white-text">Mateus</a>
+                        </div>
+                        <div class="col s12">
+                            <a href="pagPortifolio/Rennan.html" class="white-text">Rennan</a>
+                        </div>
+                        <div class="col s12">
+                            <a href="pagPortifolio/falci.html" class="white-text">Luis Falci</a>
+                        </div>
                     </div>
                     <div class="col s12">
-                      <a href="sobre.html " class="white-text">Sobre</a>
+                        <a href="sobre.html " class="white-text">Sobre</a>
                     </div>
                     <div class="col s12">
-                      <a href="contatos.html" class="white-text">Contato</a>
+                        <a href="contatos.html" class="white-text">Contato</a>
                     </div>
-                  </div>
+                </div>
 
                 <div class="col s12 l4 container">
                     <div class="row container">
@@ -250,10 +270,10 @@
     </footer>
 
     <!--  Scripts-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
-
+    <script src="https://kit.fontawesome.com/ecd8cb463a.js" crossorigin="anonymous"></script>
 
 </body>
 
